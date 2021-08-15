@@ -5,13 +5,13 @@ using namespace std;
 int main()
 {
 
-int num1, num2, selection;
+int number1, number2, selection;
 
 cout << "Please enter an integer: ";
-cin >> num1;
+cin >> number1;
 
 cout << "Please enter another integer: ";
-cin >> num2;
+cin >> number2;
 
 cout << "\n\n\n";
 
@@ -29,19 +29,19 @@ cout << "\n\n\n";
 switch(selection)
 {
 case 1:
-cout << "The sum of " << num1 << " and " << num2 << " is " << num1+num2 << endl;
+cout << "The sum of " << number1 << " and " << number2 << " is " << number1+number2 << endl;
 break;
 case 2:
-cout << "The difference of " << num1 << " and " << num2 << " is " << num1-num2 << endl;
+cout << "The difference of " << number1 << " and " << number2 << " is " << number1-number2 << endl;
 break;
 case 3:
-cout << "The product of " << num1 << " and " << num2 << " is " << num1*num2 << endl;
+cout << "The product of " << number1 << " and " << number2 << " is " << number1*number2 << endl;
 break;
 case 4:
-cout << "The quotient of " << num1 << " and " << num2 << " is " << num1/num2 << endl;
+cout << "The quotient of " << number1 << " and " << number2 << " is " << number1/number2 << endl;
 break;
 case 5:
-cout << "The remainder of " << num1 << " and " << num2 << " is " << num1%num2 << endl;
+cout << "The remainder of " << number1 << " and " << number2 << " is " << number1%number2 << endl;
 break;
 default:
 cout << "Invalid selection\n";
